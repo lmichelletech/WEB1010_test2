@@ -8,3 +8,20 @@
 // The first console log should print 5.
 // The second console log should print "equal".
 // The third console log should print -3.
+
+
+function maxOf2 (numX, numY){
+    if (numX == numY){
+        return "equal"
+    }
+    else if(numX > numY){
+        return numX
+    }
+    else{
+        return numY
+    }
+}
+
+console.log(maxOf2(5, 2))
+console.log(maxOf2(7, 7))
+console.log(maxOf2(-3, -4))

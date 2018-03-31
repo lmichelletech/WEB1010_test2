@@ -18,3 +18,21 @@
 var currentGen = 1;
 var totalGen = 19;
 var totalMW = 0;
+var addNum = 0
+
+for (currentGen; currentGen <=totalGen; currentGen++)
+{
+    if (currentGen >= 5){
+        totalMW += 124;
+        addNum = 124
+    }
+    else{
+        totalMW += 62;
+        addNum = 62
+    }
+    console.log("Generator #" + currentGen + " is on, adding " + addNum + " MW, for a total of " + totalMW + " MW!")
+
+}
+
+
+

@@ -7,3 +7,5 @@
 "two"
 3
 7
+
+console.log('\"eight\" \n' + '5 \n' + '\"six\" \n' + '\"two\" \n' + '3 \n' + '7');

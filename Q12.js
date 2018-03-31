@@ -2,3 +2,9 @@
 // in descending order. Use the code below in your solution.
 
 var num = 10;
+
+while(num > 0){
+   console.log(num + "\n");
+   num--;
+}
+
